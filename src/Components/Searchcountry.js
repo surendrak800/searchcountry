@@ -24,9 +24,7 @@ useEffect(() =>{
         setSearchedcountries(data);
 
         
-    }, 1000);
-
-    
+    }, 1000);   
     return() => clearTimeout(delayFn);
 },[searchItem]);
 
